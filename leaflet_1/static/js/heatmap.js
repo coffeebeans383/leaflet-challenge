@@ -67,7 +67,7 @@ legend.onAdd = function() {
   div.innerHTML = leg;
 
   limits.forEach(function(limits, index) {
-    div.innerHTML += "<li style=\"background-color: " + colors[index] + "\">"+labels[index]+"</li>"
+    div.innerHTML += "<i style=\"background-color: " + colors[index] + "\">"+labels[index]+"</i>"
   });
   return div;
 };
